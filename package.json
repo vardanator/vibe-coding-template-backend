@@ -1,0 +1,29 @@
+{
+  "name": "vibe-coding-template-backend",
+  "version": "1.0.0",
+  "description": "A production-ready Node.js/Express backend template with MongoDB integration, designed for rapid prototyping. Includes authentication, CRUD operations, role-based permissions, and clear API patterns. Perfect for non-technical founders and AI-assisted developers who want to ship fast without getting lost in boilerplate.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vardanator/vibe-coding-template-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vardanator/vibe-coding-template-backend/issues"
+  },
+  "homepage": "https://github.com/vardanator/vibe-coding-template-backend#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.19.3",
+    "morgan": "^1.10.1"
+  }
+}
